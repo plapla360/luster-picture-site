@@ -1,0 +1,28 @@
+<header class="site-header" data-header>
+  <div class="shell header-inner">
+    <a class="brand" href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}" aria-label="LusterPicture home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" role="img"><path d="M20 3.5 24.2 15.8 36.5 20l-12.3 4.2L20 36.5l-4.2-12.3L3.5 20l12.3-4.2L20 3.5Z"/><circle cx="30.5" cy="9.5" r="3.2"/></svg>
+      </span>
+      <span>LusterPicture</span>
+    </a>
+    <nav class="desktop-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}メインナビゲーション{% endif %}">
+      <a href="{% if page.lang == 'en' %}/en/#features{% else %}/#features{% endif %}">{% if page.lang == 'en' %}Features{% else %}機能{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}/en/#how-to{% else %}/#how-to{% endif %}">{% if page.lang == 'en' %}How to use{% else %}使い方{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}/en/#faq{% else %}/#faq{% endif %}">FAQ</a>
+      <a href="{% if page.lang == 'en' %}/en/support/{% else %}/support/{% endif %}">{% if page.lang == 'en' %}Support{% else %}サポート{% endif %}</a>
+    </nav>
+    <div class="header-actions">
+      <a class="language-link" href="{% if page.lang == 'en' %}/{% else %}/en/{% endif %}" hreflang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}">{% if page.lang == 'en' %}日本語{% else %}EN{% endif %}</a>
+      <a class="button button-small" href="https://apps.apple.com/app/id6758163728" target="_blank" rel="noopener">{% if page.lang == 'en' %}App Store{% else %}入手する{% endif %}</a>
+      <button class="menu-button" type="button" aria-label="{% if page.lang == 'en' %}Open menu{% else %}メニューを開く{% endif %}" aria-expanded="false" data-menu-button><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" aria-label="{% if page.lang == 'en' %}Mobile navigation{% else %}モバイルナビゲーション{% endif %}" data-mobile-nav>
+    <a href="{% if page.lang == 'en' %}/en/#features{% else %}/#features{% endif %}">{% if page.lang == 'en' %}Features{% else %}機能{% endif %}</a>
+    <a href="{% if page.lang == 'en' %}/en/#how-to{% else %}/#how-to{% endif %}">{% if page.lang == 'en' %}How to use{% else %}使い方{% endif %}</a>
+    <a href="{% if page.lang == 'en' %}/en/#faq{% else %}/#faq{% endif %}">FAQ</a>
+    <a href="{% if page.lang == 'en' %}/en/support/{% else %}/support/{% endif %}">{% if page.lang == 'en' %}Support{% else %}サポート{% endif %}</a>
+  </nav>
+</header>
+

@@ -1,0 +1,112 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: home_ja
+    label: ホーム（日本語）
+    type: file
+    path: index.md
+    fields:
+      - { name: title, label: ページタイトル, type: string }
+      - { name: description, label: 検索結果の説明, type: text }
+      - { name: hero_eyebrow, label: ヒーロー上部ラベル, type: string }
+      - { name: hero_title, label: メイン見出し1行目, type: string }
+      - { name: hero_accent, label: メイン見出し2行目, type: string }
+      - { name: hero_text, label: メイン説明, type: text }
+      - { name: features_title, label: 機能セクション見出し, type: string }
+      - { name: features_text, label: 機能セクション説明, type: text }
+      - { name: feature1_title, label: 機能1 見出し, type: string }
+      - { name: feature1_text, label: 機能1 説明, type: text }
+      - { name: feature2_title, label: 機能2 見出し, type: string }
+      - { name: feature2_text, label: 機能2 説明, type: text }
+      - { name: feature3_title, label: 機能3 見出し, type: string }
+      - { name: feature3_text, label: 機能3 説明, type: text }
+      - { name: feature4_title, label: 機能4 見出し, type: string }
+      - { name: feature4_text, label: 機能4 説明, type: text }
+      - { name: download_title, label: 最終ダウンロード見出し, type: string }
+      - { name: download_text, label: 最終ダウンロード説明, type: text }
+
+  - name: home_en
+    label: Home (English)
+    type: file
+    path: en/index.md
+    fields:
+      - { name: title, label: Page title, type: string }
+      - { name: description, label: Search description, type: text }
+      - { name: hero_eyebrow, label: Hero label, type: string }
+      - { name: hero_title, label: Hero title line 1, type: string }
+      - { name: hero_accent, label: Hero title line 2, type: string }
+      - { name: hero_text, label: Hero description, type: text }
+      - { name: features_title, label: Features heading, type: string }
+      - { name: features_text, label: Features introduction, type: text }
+      - { name: feature1_title, label: Feature 1 title, type: string }
+      - { name: feature1_text, label: Feature 1 description, type: text }
+      - { name: feature2_title, label: Feature 2 title, type: string }
+      - { name: feature2_text, label: Feature 2 description, type: text }
+      - { name: feature3_title, label: Feature 3 title, type: string }
+      - { name: feature3_text, label: Feature 3 description, type: text }
+      - { name: feature4_title, label: Feature 4 title, type: string }
+      - { name: feature4_text, label: Feature 4 description, type: text }
+      - { name: download_title, label: Download heading, type: string }
+      - { name: download_text, label: Download description, type: text }
+
+  - name: privacy_ja
+    label: プライバシーポリシー（日本語）
+    type: file
+    path: privacy/index.md
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: description, label: 検索結果の説明, type: text }
+      - { name: intro, label: 導入文, type: text }
+      - { name: updated, label: 最終更新日, type: string }
+      - { name: body, label: 本文, type: rich-text }
+
+  - name: privacy_en
+    label: Privacy Policy (English)
+    type: file
+    path: en/privacy/index.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: description, label: Search description, type: text }
+      - { name: intro, label: Introduction, type: text }
+      - { name: updated, label: Last updated, type: string }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: terms_ja
+    label: 利用規約（日本語）
+    type: file
+    path: terms/index.md
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: description, label: 検索結果の説明, type: text }
+      - { name: intro, label: 導入文, type: text }
+      - { name: body, label: 本文, type: rich-text }
+
+  - name: terms_en
+    label: Terms of Use (English)
+    type: file
+    path: en/terms/index.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: description, label: Search description, type: text }
+      - { name: intro, label: Introduction, type: text }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: support_ja
+    label: サポート（日本語）
+    type: file
+    path: support/index.md
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: intro, label: 導入文, type: text }
+      - { name: body, label: 本文, type: rich-text }
+
+  - name: support_en
+    label: Support (English)
+    type: file
+    path: en/support/index.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: intro, label: Introduction, type: text }
+      - { name: body, label: Content, type: rich-text }

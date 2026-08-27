@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="brand footer-brand" href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 3.5 24.2 15.8 36.5 20l-12.3 4.2L20 36.5l-4.2-12.3L3.5 20l12.3-4.2L20 3.5Z"/><circle cx="30.5" cy="9.5" r="3.2"/></svg></span>
+        <span>LusterPicture</span>
+      </a>
+      <p>{% if page.lang == 'en' %}Bring hidden light back to every photo.{% else %}写真に眠る光を、もう一度。{% endif %}</p>
+    </div>
+    <div class="footer-links">
+      <a href="{% if page.lang == 'en' %}/en/privacy/{% else %}/privacy/{% endif %}">{% if page.lang == 'en' %}Privacy Policy{% else %}プライバシーポリシー{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}/en/terms/{% else %}/terms/{% endif %}">{% if page.lang == 'en' %}Terms of Use{% else %}利用規約{% endif %}</a>
+      <a href="{% if page.lang == 'en' %}/en/support/{% else %}/support/{% endif %}">{% if page.lang == 'en' %}Support{% else %}お問い合わせ{% endif %}</a>
+    </div>
+  </div>
+  <div class="shell footer-bottom">
+    <span>© 2025–{{ 'now' | date: '%Y' }} Luster Picture Project</span>
+    <span>Made for better light.</span>
+  </div>
+</footer>
+

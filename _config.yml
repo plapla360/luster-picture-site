@@ -1,0 +1,11 @@
+title: LusterPicture
+description: 暗い写真を、鮮やかな一枚へ。オンデバイスAI写真補正アプリ。
+url: https://luster-picture.com
+baseurl: ""
+lang: ja
+timezone: Asia/Tokyo
+permalink: pretty
+exclude:
+  - README.md
+  - LICENSE
+
