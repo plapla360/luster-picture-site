@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luster-picture.com/sitemap.xml
-
+Sitemap: https://lusterpicture.com/sitemap.xml

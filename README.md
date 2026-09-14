@@ -1,6 +1,6 @@
 # LusterPicture official site
 
-Official website for **LusterPicture**, hosted with GitHub Pages at `https://luster-picture.com`.
+Official website for **LusterPicture**, hosted with GitHub Pages at `https://lusterpicture.com`.
 
 ## Included
 
@@ -16,7 +16,7 @@ Official website for **LusterPicture**, hosted with GitHub Pages at `https://lus
 1. Open **Settings > Pages** in this repository.
 2. Under **Build and deployment**, select **Deploy from a branch**.
 3. Select branch **main** and folder **/(root)**, then save.
-4. In **Custom domain**, enter `luster-picture.com`.
+4. In **Custom domain**, enter `lusterpicture.com`.
 5. Configure the domain's DNS records as described below.
 6. When the certificate is ready, enable **Enforce HTTPS**.
 
@@ -52,7 +52,7 @@ The CMS writes changes back to this repository; GitHub Pages then rebuilds the s
 
 After deployment, confirm that this URL returns a single plain-text record:
 
-`https://luster-picture.com/app-ads.txt`
+`https://lusterpicture.com/app-ads.txt`
 
 Expected record:
 
