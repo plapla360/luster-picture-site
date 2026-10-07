@@ -14,7 +14,7 @@
     </nav>
     <div class="header-actions">
       <a class="language-link" href="{% if page.lang == 'en' %}/{% else %}/en/{% endif %}" hreflang="{% if page.lang == 'en' %}ja{% else %}en{% endif %}">{% if page.lang == 'en' %}日本語{% else %}EN{% endif %}</a>
-      <a class="button button-small" href="https://apps.apple.com/app/id6758163728" target="_blank" rel="noopener">{% if page.lang == 'en' %}App Store{% else %}入手する{% endif %}</a>
+      <a class="button button-small" href="{% if page.lang == 'en' %}/en/#download{% else %}/#download{% endif %}">{% if page.lang == 'en' %}Get the app{% else %}入手する{% endif %}</a>
       <button class="menu-button" type="button" aria-label="{% if page.lang == 'en' %}Open menu{% else %}メニューを開く{% endif %}" aria-expanded="false" data-menu-button><span></span><span></span></button>
     </div>
   </div>

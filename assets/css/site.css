@@ -60,6 +60,8 @@ button, input { font: inherit; }
 .store-button span { display: flex; flex-direction: column; line-height: 1.05; }
 .store-button small { font-size: 9px; letter-spacing: .02em; }
 .store-button strong { margin-top: 3px; font-size: 18px; letter-spacing: -.03em; }
+.store-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+.store-buttons-center { justify-content: center; }
 .text-link { font-size: 14px; font-weight: 750; border-bottom: 1px solid rgba(17,18,26,.3); }
 .text-link span { margin-left: 6px; }
 .privacy-note { display: flex; align-items: center; gap: 9px; margin-top: 26px; color: #696b78; font-size: 12px; }

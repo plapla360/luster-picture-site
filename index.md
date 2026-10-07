@@ -51,6 +51,6 @@ faq3_a: 一般的なJPEG、PNG、HEIFに加え、主要カメラのRAWデータ�
 faq4_q: HEIF一括変換で注意することはありますか？
 faq4_a: 変換後、ユーザーの許可によりオリジナル写真が「最近削除した項目」へ移動します。大切な写真は、実行前に必ずバックアップしてください。
 download_title: あなたの写真に眠る光を、引き出そう。
-download_text: LusterPictureをApp Storeからダウンロード。基本の光補正とAI補正は無料でお試しいただけます。
+download_text: LusterPictureをApp StoreまたはGoogle Playからダウンロード。基本の光補正とAI補正は無料でお試しいただけます。
 ---
 

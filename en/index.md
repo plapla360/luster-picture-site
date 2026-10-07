@@ -51,5 +51,5 @@ faq3_a: Along with JPEG, PNG, and HEIF, LusterPicture supports major camera RAW 
 faq4_q: Is there anything to know before batch HEIF conversion?
 faq4_a: After conversion, the originals may be moved to Recently Deleted with your permission. Always back up important photos before running a batch conversion.
 download_title: Bring the hidden light back to your photos.
-download_text: Download LusterPicture from the App Store. Try the core Luster Boost and AI Enhancement features for free.
+download_text: Download LusterPicture from the App Store or Google Play. Try the core Luster Boost and AI Enhancement features for free.
 ---
