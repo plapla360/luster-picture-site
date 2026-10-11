@@ -50,6 +50,9 @@ faq3_q: 対応しているファイル形式は？
 faq3_a: 一般的なJPEG、PNG、HEIFに加え、主要カメラのRAWデータ（DNG、ARW、CR3、NEF）に対応しています。
 faq4_q: HEIF一括変換で注意することはありますか？
 faq4_a: 変換後、ユーザーの許可によりオリジナル写真が「最近削除した項目」へ移動します。大切な写真は、実行前に必ずバックアップしてください。
+faq5_q: 対応しているOSのバージョンは？
+faq5_a: iOSはiOS 18.6以上、AndroidはAndroid 13以上に対応しています。Android 12以前の端末では、光マジックのGPU処理に必要な機能（AGSL）がOSに搭載されていないため、インストールできません。
+requirements_note: 対応OS：iOS 18.6以上 ／ Android 13以上
 download_title: あなたの写真に眠る光を、引き出そう。
 download_text: LusterPictureをApp StoreまたはGoogle Playからダウンロード。基本の光補正とAI補正は無料でお試しいただけます。
 ---

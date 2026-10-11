@@ -164,6 +164,7 @@ button, input { font: inherit; }
 .download-section h2 { max-width: 760px; }
 .download-section p:not(.eyebrow) { max-width: 610px; margin: 22px auto 34px; color: #b9bac4; }
 .store-button-light { color: var(--ink); background: #fff; }
+.download-section .requirements-note { margin: 22px 0 0; color: #8a8c98; font-size: 12px; letter-spacing: .02em; }
 
 .site-footer { padding: 72px 0 26px; color: #c0c1ca; background: #07080d; }
 .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 50px; align-items: start; }

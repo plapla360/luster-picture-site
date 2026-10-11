@@ -50,6 +50,9 @@ faq3_q: Which file formats are supported?
 faq3_a: Along with JPEG, PNG, and HEIF, LusterPicture supports major camera RAW formats including DNG, ARW, CR3, and NEF.
 faq4_q: Is there anything to know before batch HEIF conversion?
 faq4_a: After conversion, the originals may be moved to Recently Deleted with your permission. Always back up important photos before running a batch conversion.
+faq5_q: Which OS versions are supported?
+faq5_a: iOS 18.6 or later, and Android 13 or later. Devices on Android 12 or earlier cannot install the app because the GPU feature Luster Boost relies on (AGSL) is not available in those OS versions.
+requirements_note: "Requires iOS 18.6 or later / Android 13 or later"
 download_title: Bring the hidden light back to your photos.
 download_text: Download LusterPicture from the App Store or Google Play. Try the core Luster Boost and AI Enhancement features for free.
 ---
